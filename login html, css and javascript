@@ -101,9 +101,9 @@ body{
 function check(form)
 {
  
- if(form.userid.value == "games" && form.pswrd.value == "free")
+ if(form.userid.value == "userid" && form.pswrd.value == "password")
   {
-    window.open('games.html')
+    window.open('index.html') what to open
   }
  else
  {
